@@ -1,0 +1,87 @@
+.cabecalho{
+    background-color: #BBBBBB;
+    padding: 20px;
+    padding-left: 60px;
+}
+#imagem{
+    
+}
+nav a:hover{
+    color: rgb(255, 0, 0);
+}
+.menu .links {
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 200px;
+
+}
+
+
+.caixa{
+    width:940px;
+    margin: 0 auto;
+    
+}
+.produtos li:hover{
+    border-color: red;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+.produtos li:active{
+border-color: green;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.descrição{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding:40px 0;
+}
+
+.copy {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}

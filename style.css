@@ -1,0 +1,47 @@
+/* all = body */
+/* missao = segundo p */
+/* missao negrito = frase em negrito segundo p */
+/* titulo = h1 */
+/* foto = img*/
+/* listas = ul*/
+/*  h3 = Benefícios*/
+
+
+.foto{
+    width: 100%;
+}
+.foto2{
+    width: 50%;
+}
+.titulo {
+    padding-left: 20px;
+}
+
+.div1{
+    text-align: center;
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.missao {
+    font-size: 20px;
+}
+.missaonegrito {
+    color: red;
+}
+.div2{
+    background-color: white;
+}
+
+.h3{
+    text-align: center;
+    padding: 20px;
+}
+.listas{
+    text-align: left;
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
